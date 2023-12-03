@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Seleccionar salario</title>
+</head>
+<body>
+
+<h1>Seleccionar salario</h1>
+
+<a th:href="@{/salario/verSalario(salario='2900')}">Ver salario 1</a>
+<a th:href="@{/salario/verSalario(salario='5600')}">Ver salario 2</a>
+<a th:href="@{/salario/verSalarioMasComision(salario='5600', comision=100)}">Ver salario 3 con comision</a>
+<a th:href="@{/salario/verSalarioHttpRequest(salario='1200')}">Ver salario 4 con HttpRequest</a>
+
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Salario buscado</title>
+</head>
+<body>
+
+<h1>Buscando salarios.....</h1>
+
+<span>El salario ingresado es: </span>
+<span th:text="${salario}"></span>
+
+
+<p th:if="${comision}"> La comision es: <span th:text="${comision}"></span> </p>
+
+
+</body>
+</html>
